@@ -1,4 +1,3 @@
-
 //The MIT License (MIT)
 //
 //Copyright (c) 2014 Rafał Augustyniak
@@ -102,6 +101,8 @@
       return RATreeViewStylePlain;
     case UITableViewStyleGrouped:
       return RATreeViewStyleGrouped;
+      default:
+          return RATreeViewStylePlain;
   }
 }
 #pragma mark Scroll Positions
